@@ -1,0 +1,6 @@
+{
+  "user_report": "Black screen followed by restart",
+  "windows_bugcheck": "0x0000019c",
+  "cause": "Not established; no dump analysis performed",
+  "recovery": "No training processes survived. Four paired experiments and smoke results intact. Unfinished longer-budget attempt excluded; finalization uses CPU only."
+}

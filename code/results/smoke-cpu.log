@@ -1,0 +1,63 @@
+{"validation": {"step": 5, "bpb": 3.5986426860854364, "token_ppl": 2005.764034308897, "nll_nats": 2863576.069118023, "targets": 376599, "utf8_bytes": 1148007, "seconds": 10.378081500006374}}
+{"step": 10, "loss": 7.570943355560303, "seconds": 5.975182299996959}
+{"validation": {"step": 10, "bpb": 3.5825705833510657, "token_ppl": 1938.792539422282, "nll_nats": 2850786.8892006874, "targets": 376599, "utf8_bytes": 1148007, "seconds": 10.422113800013904}}
+{
+  "protocol": "7506-mp1-wt2-v2",
+  "implementation": "student",
+  "config": {
+    "vocab": 2048,
+    "width": 128,
+    "heads": 4,
+    "depth": 4,
+    "context": 256,
+    "gated": true
+  },
+  "seed": 17,
+  "parameters": 1093056,
+  "precision": "fp32",
+  "train_tokens": 81920,
+  "preparation_seconds": 23.440433700016,
+  "train_seconds": 5.981910799979232,
+  "validation": {
+    "bpb": 3.5825705833510657,
+    "token_ppl": 1938.792539422282,
+    "nll_nats": 2850786.8892006874,
+    "targets": 376599,
+    "utf8_bytes": 1148007,
+    "seconds": 10.465016800008016
+  },
+  "history": [],
+  "validation_history": [
+    {
+      "step": 5,
+      "bpb": 3.5986426860854364,
+      "token_ppl": 2005.764034308897,
+      "nll_nats": 2863576.069118023,
+      "targets": 376599,
+      "utf8_bytes": 1148007,
+      "seconds": 10.378081500006374
+    },
+    {
+      "step": 10,
+      "bpb": 3.5825705833510657,
+      "token_ppl": 1938.792539422282,
+      "nll_nats": 2850786.8892006874,
+      "targets": 376599,
+      "utf8_bytes": 1148007,
+      "seconds": 10.422113800013904
+    }
+  ],
+  "intermediate_validation_seconds": 20.800195300020278,
+  "process_seconds": 60.698118300002534,
+  "torch_version": "2.7.1+cpu",
+  "threads": 4,
+  "checkpoint_sha256": "1b52962730cebb3688793ae2d1b20d28e83d918f2d9ea6496c2ddd7e89c286d7",
+  "implementation_sha256": "33c01bc0df20f2c37d49d701573103893f47550afa5a9ac99e0ff387160fa1ce",
+  "best_validation_bpb": 3.5825705833510657,
+  "best_step": 10,
+  "trainer_sha256": "43419b5e2b21bd49da957214eb384b9889b59fc204695556ce7347319ea1579a",
+  "device": "cpu",
+  "device_name": "CPU",
+  "peak_allocated_gb": 0.0,
+  "peak_reserved_gb": 0.0
+}

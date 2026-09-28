@@ -1,0 +1,22 @@
+{
+  "frozen_at_utc": "2026-09-23T09:22:31.894401+00:00",
+  "selected_run": "runs/paired-gated-s29",
+  "selected_checkpoint": "best.pt",
+  "selection_reason": "Lowest full-validation BPB among four completed equal-budget runs; both seed pairs favor SwiGLU. Longer-budget attempt interrupted without results; stop GPU use after reported system instability. No test scoring used for selection.",
+  "best_step": 1200,
+  "validation_bpb": 2.0166160297485995,
+  "total_run_train_targets": 9830400,
+  "selected_checkpoint_train_targets": 9830400,
+  "checkpoint_sha256": "01a37e8f19ae0c312913f719bbe43eb8bfcdb97fe3f3ca9014d39fe3e565e0e9",
+  "source_sha256": {
+    "student.py": "33c01bc0df20f2c37d49d701573103893f47550afa5a9ac99e0ff387160fa1ce",
+    "model.py": "6cce142a31d396f017319543f50d70f30fa6da740729af01c8baed13c6f671f9",
+    "common.py": "d40dc1fe6578b5993a563bdb4d9e5317ddc9fae8afe48822b66571c7042e84db",
+    "evaluate.py": "128bcb2dab0be0d427505bddb4671e3ab3a8f78e114be79a689c0f9029af133d",
+    "train.py": "43419b5e2b21bd49da957214eb384b9889b59fc204695556ce7347319ea1579a",
+    "configs/gated.json": "f08a45adcdc7603858a5266d90e9a857cd6321a2d6927edd7f998b37d22b0be6",
+    "configs/ablation.json": "0d12ab3f058a89644aecc3e63e823b1c9af0f95a67ae4b568198f4192a2976f7",
+    "configs/baseline.json": "6b0c87aa8e15107b78d9789b8f254559735eb0eee81f941715bcc216bdb09e7d"
+  },
+  "test_used_for_selection": false
+}

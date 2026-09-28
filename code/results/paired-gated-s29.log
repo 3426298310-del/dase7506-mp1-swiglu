@@ -1,0 +1,94 @@
+{"step": 100, "loss": 5.941871166229248, "seconds": 2.1549512000055984}
+{"step": 200, "loss": 5.140466690063477, "seconds": 3.8259949999919627}
+{"step": 300, "loss": 4.871618747711182, "seconds": 5.55002650001552}
+{"validation": {"step": 300, "bpb": 2.2957016558251437, "token_ppl": 127.83250430465782, "nll_nats": 1826776.6202169228, "targets": 376599, "utf8_bytes": 1148007, "seconds": 0.6900767000042833}}
+{"step": 400, "loss": 4.666326999664307, "seconds": 7.258443800004898}
+{"step": 500, "loss": 4.6138596534729, "seconds": 9.002623200009111}
+{"step": 600, "loss": 4.45523738861084, "seconds": 10.745402000000468}
+{"validation": {"step": 600, "bpb": 2.1391767330137874, "token_ppl": 91.83470549636439, "nll_nats": 1702223.8200969654, "targets": 376599, "utf8_bytes": 1148007, "seconds": 0.6316951000189874}}
+{"step": 700, "loss": 4.48408842086792, "seconds": 12.553227999975206}
+{"step": 800, "loss": 4.304591178894043, "seconds": 14.370720799983246}
+{"step": 900, "loss": 4.2405104637146, "seconds": 16.15049589998671}
+{"validation": {"step": 900, "bpb": 2.0568859913878783, "token_ppl": 77.17792054093037, "nll_nats": 1636741.9651350712, "targets": 376599, "utf8_bytes": 1148007, "seconds": 0.6273922999971546}}
+{"step": 1000, "loss": 4.235064506530762, "seconds": 17.950400299974717}
+{"step": 1100, "loss": 4.208838939666748, "seconds": 19.751758099970175}
+{"step": 1200, "loss": 4.180614948272705, "seconds": 21.544109799986472}
+{"validation": {"step": 1200, "bpb": 2.0166160297485995, "token_ppl": 70.88257828539575, "nll_nats": 1604697.63383749, "targets": 376599, "utf8_bytes": 1148007, "seconds": 0.6380984999996144}}
+{
+  "protocol": "7506-mp1-wt2-v2",
+  "implementation": "student",
+  "config": {
+    "vocab": 2048,
+    "width": 128,
+    "heads": 4,
+    "depth": 4,
+    "context": 256,
+    "gated": true
+  },
+  "seed": 29,
+  "parameters": 1093056,
+  "precision": "bf16",
+  "train_tokens": 9830400,
+  "preparation_seconds": 10.572417099989252,
+  "train_seconds": 21.55488339997828,
+  "validation": {
+    "bpb": 2.0166160297485995,
+    "token_ppl": 70.88257828539575,
+    "nll_nats": 1604697.63383749,
+    "targets": 376599,
+    "utf8_bytes": 1148007,
+    "seconds": 0.6386765000061132
+  },
+  "history": [],
+  "validation_history": [
+    {
+      "step": 300,
+      "bpb": 2.2957016558251437,
+      "token_ppl": 127.83250430465782,
+      "nll_nats": 1826776.6202169228,
+      "targets": 376599,
+      "utf8_bytes": 1148007,
+      "seconds": 0.6900767000042833
+    },
+    {
+      "step": 600,
+      "bpb": 2.1391767330137874,
+      "token_ppl": 91.83470549636439,
+      "nll_nats": 1702223.8200969654,
+      "targets": 376599,
+      "utf8_bytes": 1148007,
+      "seconds": 0.6316951000189874
+    },
+    {
+      "step": 900,
+      "bpb": 2.0568859913878783,
+      "token_ppl": 77.17792054093037,
+      "nll_nats": 1636741.9651350712,
+      "targets": 376599,
+      "utf8_bytes": 1148007,
+      "seconds": 0.6273922999971546
+    },
+    {
+      "step": 1200,
+      "bpb": 2.0166160297485995,
+      "token_ppl": 70.88257828539575,
+      "nll_nats": 1604697.63383749,
+      "targets": 376599,
+      "utf8_bytes": 1148007,
+      "seconds": 0.6380984999996144
+    }
+  ],
+  "intermediate_validation_seconds": 2.58726260002004,
+  "process_seconds": 35.48564110000734,
+  "torch_version": "2.7.1+cu126",
+  "threads": 4,
+  "checkpoint_sha256": "149fae8751abb5770cf739243f1131d94d0148c0949c8fa675f9c61aa9f96bf1",
+  "implementation_sha256": "33c01bc0df20f2c37d49d701573103893f47550afa5a9ac99e0ff387160fa1ce",
+  "best_validation_bpb": 2.0166160297485995,
+  "best_step": 1200,
+  "trainer_sha256": "43419b5e2b21bd49da957214eb384b9889b59fc204695556ce7347319ea1579a",
+  "device": "cuda:0",
+  "device_name": "NVIDIA GeForce RTX 3060 Laptop GPU",
+  "peak_allocated_gb": 0.44698112,
+  "peak_reserved_gb": 0.501219328
+}

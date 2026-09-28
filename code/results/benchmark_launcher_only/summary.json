@@ -1,0 +1,76 @@
+{
+  "split": "test",
+  "threads": 4,
+  "precision": "fp32",
+  "records": [
+    {
+      "label": "baseline",
+      "repeat": 0,
+      "bpb": 2.1027022168964282,
+      "scoring_seconds": 10.579641199999969,
+      "process_seconds": 30.490807899999936,
+      "peak_process_ram_bytes": 4481024,
+      "checkpoint": "runs/paired-baseline-s17/checkpoint.pt"
+    },
+    {
+      "label": "candidate",
+      "repeat": 0,
+      "bpb": 2.0478319960871167,
+      "scoring_seconds": 11.024095799999941,
+      "process_seconds": 22.944605799999863,
+      "peak_process_ram_bytes": 4481024,
+      "checkpoint": "submission/model.pt"
+    },
+    {
+      "label": "candidate",
+      "repeat": 1,
+      "bpb": 2.0478319960871167,
+      "scoring_seconds": 10.671975400000065,
+      "process_seconds": 21.973706900000025,
+      "peak_process_ram_bytes": 4481024,
+      "checkpoint": "submission/model.pt"
+    },
+    {
+      "label": "baseline",
+      "repeat": 1,
+      "bpb": 2.1027022168964282,
+      "scoring_seconds": 9.781497799999897,
+      "process_seconds": 20.78033030000006,
+      "peak_process_ram_bytes": 4481024,
+      "checkpoint": "runs/paired-baseline-s17/checkpoint.pt"
+    },
+    {
+      "label": "baseline",
+      "repeat": 2,
+      "bpb": 2.1027022168964282,
+      "scoring_seconds": 9.571409599999924,
+      "process_seconds": 20.611385700000028,
+      "peak_process_ram_bytes": 4481024,
+      "checkpoint": "runs/paired-baseline-s17/checkpoint.pt"
+    },
+    {
+      "label": "candidate",
+      "repeat": 2,
+      "bpb": 2.0478319960871167,
+      "scoring_seconds": 10.213688700000148,
+      "process_seconds": 21.149990099999968,
+      "peak_process_ram_bytes": 4485120,
+      "checkpoint": "submission/model.pt"
+    }
+  ],
+  "baseline": {
+    "median_scoring_seconds": 9.781497799999897,
+    "max_peak_process_ram_bytes": 4481024,
+    "bpb": 2.1027022168964282
+  },
+  "candidate": {
+    "median_scoring_seconds": 10.671975400000065,
+    "max_peak_process_ram_bytes": 4485120,
+    "bpb": 2.0478319960871167
+  },
+  "time_ratio": 1.0910369371038633,
+  "time_pass": true,
+  "ram_pass": null,
+  "ram_measurement_valid": false,
+  "superseded_by": "results/benchmark/summary.json"
+}

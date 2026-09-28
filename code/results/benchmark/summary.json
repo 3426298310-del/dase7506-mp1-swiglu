@@ -1,0 +1,81 @@
+{
+  "split": "test",
+  "threads": 4,
+  "precision": "fp32",
+  "ram_method": "Conservative sum of per-process peak working sets across launcher and all evaluator descendants, sampled every 20 ms.",
+  "records": [
+    {
+      "label": "baseline",
+      "repeat": 0,
+      "bpb": 2.1027022168964282,
+      "scoring_seconds": 11.286552600002324,
+      "process_seconds": 24.423065099996165,
+      "peak_process_ram_bytes": 1686781952,
+      "max_evaluator_processes": 2,
+      "checkpoint": "runs/paired-baseline-s17/checkpoint.pt"
+    },
+    {
+      "label": "candidate",
+      "repeat": 0,
+      "bpb": 2.0478319960871167,
+      "scoring_seconds": 11.234930600003281,
+      "process_seconds": 22.903881099999126,
+      "peak_process_ram_bytes": 1689161728,
+      "max_evaluator_processes": 2,
+      "checkpoint": "submission/model.pt"
+    },
+    {
+      "label": "candidate",
+      "repeat": 1,
+      "bpb": 2.0478319960871167,
+      "scoring_seconds": 11.474278300003789,
+      "process_seconds": 23.085859099999652,
+      "peak_process_ram_bytes": 1689985024,
+      "max_evaluator_processes": 2,
+      "checkpoint": "submission/model.pt"
+    },
+    {
+      "label": "baseline",
+      "repeat": 1,
+      "bpb": 2.1027022168964282,
+      "scoring_seconds": 11.02387400000589,
+      "process_seconds": 22.52229349999834,
+      "peak_process_ram_bytes": 1686917120,
+      "max_evaluator_processes": 2,
+      "checkpoint": "runs/paired-baseline-s17/checkpoint.pt"
+    },
+    {
+      "label": "baseline",
+      "repeat": 2,
+      "bpb": 2.1027022168964282,
+      "scoring_seconds": 11.015498700005992,
+      "process_seconds": 22.672749600002135,
+      "peak_process_ram_bytes": 1687220224,
+      "max_evaluator_processes": 2,
+      "checkpoint": "runs/paired-baseline-s17/checkpoint.pt"
+    },
+    {
+      "label": "candidate",
+      "repeat": 2,
+      "bpb": 2.0478319960871167,
+      "scoring_seconds": 11.310710199999448,
+      "process_seconds": 22.69613869999739,
+      "peak_process_ram_bytes": 1688952832,
+      "max_evaluator_processes": 2,
+      "checkpoint": "submission/model.pt"
+    }
+  ],
+  "baseline": {
+    "median_scoring_seconds": 11.02387400000589,
+    "max_peak_process_ram_bytes": 1687220224,
+    "bpb": 2.1027022168964282
+  },
+  "candidate": {
+    "median_scoring_seconds": 11.310710199999448,
+    "max_peak_process_ram_bytes": 1689985024,
+    "bpb": 2.0478319960871167
+  },
+  "time_ratio": 1.0260195463040855,
+  "time_pass": true,
+  "ram_pass": true
+}
